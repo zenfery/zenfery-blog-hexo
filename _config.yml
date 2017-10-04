@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.zenfery.cc
 root: /
-permalink: articles/:title
+permalink: articles/:title.html
 permalink_defaults:
 
 # Directory
@@ -55,7 +55,8 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-
+  JAVA: java
+  J2SE: j2se
 tag_map:
   多线程: multi-thread
   并发: concurrent

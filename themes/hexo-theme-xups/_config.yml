@@ -66,10 +66,10 @@ weibo_show:
 #----------------------------
 comment:
   enable: true
-  owner: jangdelong
-  repo: blog_comments
-  client_id: b08ed25e52c57993e69c
-  client_secret: 1cb9545488f0380904b87350e7c5a270ae03bab7
+  owner: zenfery
+  repo: zenfery-blog-hexo
+  client_id: 73b8f532fbb697b4412b
+  client_secret: 6bfe666648f28d4f187010cec43f2b00aa3fbded
 
 #----------------------------
 # 是否开启云标签
@@ -119,8 +119,8 @@ head_links:
 # SEO
 #----------------------------
 SEO:
-  keywords: Jelon, 前端, Web, 张德龙, 前端开发
-  description: Jelon个人前端小站
+  keywords: Zenfery, 前端, Web, JAVA,
+  description: 子暃之路，分享成长中的点点滴滴。
 
 #----------------------------
 # 百度分析
