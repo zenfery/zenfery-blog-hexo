@@ -8,7 +8,7 @@ updated: 2017-10-21 10:46:00
 author: Zenfery
 tags:
   - 技术感想
-thumbnail:
+thumbnail: asset/img/thumbnail/hexo.png
 blogexcerpt: 自从大学毕业，选择成为一名苦逼程序员(此处因为我是程序员）后，就一直羡慕那些有个站的同学，也想要开一个博客、个站玩玩，顺便装X。
 ---
 自从大学毕业，选择成为一名苦逼程序员(此处因为我是程序员）后，就一直羡慕那些有个站的同学，也想要开一个博客、个站玩玩，顺便装X。

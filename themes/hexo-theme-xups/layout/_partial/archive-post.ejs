@@ -18,7 +18,7 @@
         <%- partial('post/title', { class_name: 'post-title' }) %>
     </header>
     <p class="post-meta">
-        <%- post.author || 'Jelon' %> 发表于
+        <%- post.author || 'Zenfery' %> 发表于
         <%- partial('post/date', { date_format: 'YYYY-MM-DD' }) %>
         &nbsp;&nbsp;
         <span class="post-tags">
@@ -33,7 +33,7 @@
                 <%- post.blogexcerpt || post.excerpt || post.content %>
             <% } %>
             <p class="more">
-                <a href="<%- post.permalink %>">阅读剩下更多</a>
+                <a href="<%- url_for(post.permalink) %>">阅读剩下更多</a>
             </p>
         </div>
         <div class="post-thumbnail" data-img="<%- post.photos[0] %>">
