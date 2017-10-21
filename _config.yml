@@ -57,9 +57,11 @@ default_category: uncategorized
 category_map:
   JAVA: java
   J2SE: j2se
+  随笔: essay
 tag_map:
   多线程: multi-thread
   并发: concurrent
+  技术感想: it-think
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

@@ -105,7 +105,7 @@ public class SimpleDateFormat extends DateFormat {
 
 ## 解决方案
 - 每次进行格式化日期调用时，均 new 一个 SimpleDateFormat 对象；缺点是在高并发的情况下，就会频繁创建和销毁对旬，造成开销。
-- 使用 synchronized 关键字 或 Lock 给静态方法加上同步；缺点是在高并发的情况下，所有的线程在此处会引起资源的竞争。
+- 使用 synchronized 关键字 或 Lock 给静态方法加上同步；缺点是在高并发的情况下，线程会竞争锁而阻塞，影响性能。
 - 使用 ThreadLocal 对象创建静态 DateFormat 。这样在高并发情况下，有多少个线程，就会创建多少个 DateFormat 对象，既不会无限制创建、销毁对象，也不会引起对象的多线程竞争（此种方案适用于使用线程池的情况）。如下：
 {% codeblock lang:java %}
 public abstract class DateUtils {
@@ -117,22 +117,5 @@ public abstract class DateUtils {
         }
         return dateFormatForDay.get().format(date);
     }
-}
-{% endcodeblock %}
-- 根据格式化 pattern ，将 DateFormat 对象存储在内存中，使用时直接获取。如下：
-{% codeblock lang:java %}
-public abstract class PatternDateUtils {
-
-	private static final Map<String, DateFormat> dfs = new HashMap<String, DateFormat>();
-	private static final List<String> patterns = new ArrayList<String>();
-
-	public static String format(Date date, String pattern){
-		DateFormat df = dfs.get(pattern);
-		if(df == null){
-			df = new SimpleDateFormat(pattern);
-			dfs.put(pattern, df);
-		}
-		return df.format(date);
-	}
 }
 {% endcodeblock %}
