@@ -51,3 +51,4 @@ node_modules/
 public/
 db.json
 public.*
+package-lock.json
