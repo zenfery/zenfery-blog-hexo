@@ -12,7 +12,4 @@ projects:
             1:
                 name: 基于 Springboot 的多数据源支持
                 link: https://github.com/zenfery/springboot-starter-mds
-            2：
-                name: springboot-starter-mds 示例
-                link: https://github.com/zenfery/springboot-starter-mds/tree/master/mds-sample
 ---
