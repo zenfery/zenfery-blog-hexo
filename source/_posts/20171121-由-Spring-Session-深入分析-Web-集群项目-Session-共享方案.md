@@ -37,7 +37,8 @@ blogexcerpt: 在集群 Web 系统中，Session 会话基本上是属于肯定要
 
 ### 基于 ip hash 或 session sticky 实现
 基于 ip hash 和 session sticky 的方案原理均是为了将同一个客户端的请求都导向到后端的同一服务端实例。
-ip hash 采用的是将同一个 ip 或 ip 段的请求导向到同一个服务实例。session sticky 采用的是记忆同一个客户端的会话请求的服务器实例，该客户端的请求，将会导向至同一个服务实例。从而达到共享假象的共享 Session 。session sticky 的原理图如下：![session-sticky](/hexo/asset/img/session-share-sticky.png)
+ip hash 采用的是将同一个 ip 或 ip 段的请求导向到同一个服务实例。session sticky 采用的是记忆同一个客户端的会话请求的服务器实例，该客户端的请求，将会导向至同一个服务实例。从而达到共享假象的共享 Session 。session sticky 的原理图如下：
+![session-sticky](../asset/img/session-share-sticky.png)
 
 #### 优点
 - **简单，无需开发。** 常用的 Web 服务器均实现该机制，仅需要按照官方文档进行配置即可。
