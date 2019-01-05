@@ -63,6 +63,8 @@ category_map:
   Annotation: annotation
   前端: fe
   React-Router: react-router
+  分布式: distributed
+
 tag_map:
   多线程: multi-thread
   并发: concurrent
@@ -72,6 +74,9 @@ tag_map:
   Java-Core: java-core
   单页面: single-page
   组件化: componentize
+  微服务: mservice
+  SOA: soa
+  ESB: esb
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
