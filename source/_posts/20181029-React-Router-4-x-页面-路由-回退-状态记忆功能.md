@@ -1,6 +1,6 @@
 ---
 title: 'React Router 4.x 页面(路由)回退, 状态记忆功能'
-permalink: react-router-4-goback
+#permalink: react-router-4-goback
 categories:
   - 前端
   - React-Router
@@ -19,10 +19,10 @@ blogexcerpt: 使用 React 进行前端单页面应用开发，常用的页面路
 首先，了解一下，何为页面状态记忆？在此，以一个示例来说明，看一下，以下两张阿里云管理控制台的截图，A 图为云主机列表页面，B 图为点击 A 右侧的“管理”按钮后的跳转页面; 在 B 页面操作后，点击左上角的“返回”，页面会再返回 A 页面；此时，A页面中的条件选择框中还能记忆住之前选择的时间条件，这种交互，称之为状态记忆。
 
 - 图A:
-  {% asset_img react-router-4-gobakc-1.png %}
+  ![](./20181029-React-Router-4-x-页面-路由-回退-状态记忆功能/react-router-4-gobakc-1.png)
 
 - 图B:
-  {% asset_img react-router-4-gobakc-2.png %}
+  ![](./20181029-React-Router-4-x-页面-路由-回退-状态记忆功能/react-router-4-gobakc-2.png)
 
 了解了何为状态记忆后，下面就来实现此功能。
 
