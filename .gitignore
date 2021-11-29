@@ -52,3 +52,4 @@ public/
 db.json
 public.*
 package-lock.json
+_config.deploy.yml

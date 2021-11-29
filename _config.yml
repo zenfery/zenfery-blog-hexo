@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 子暃之路
+title: 子暃
 subtitle: 分享成长中的点点滴滴
 description:
 author: Zenfery
@@ -12,9 +12,9 @@ timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.zenfery.cc/
+url: https://blog.zenfery.cc/hexo
 root: /hexo/
-permalink: articles/:title.html
+permalink: articles/:hash.html
 permalink_defaults:
 #pretty_urls:
 #  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -121,4 +121,3 @@ theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-
