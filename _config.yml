@@ -5,20 +5,20 @@
 # Site
 title: 子暃
 subtitle: 分享成长中的点点滴滴
-description:
+description: 
 author: Zenfery
 language: zh-CN
 timezone:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.zenfery.cc/hexo
-root: /hexo/
+url: https://blog.zenfery.cc
+root: /hexo
 permalink: articles/:hash.html
 permalink_defaults:
-#pretty_urls:
-#  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: false # Set to false to remove trailing '.html' from permalinks
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -73,10 +73,13 @@ category_map:
   J2EE: j2ee
   随笔: essay
   Spring: spring
+  SpringMVC: springmvc
   Annotation: annotation
   前端: fe
   React-Router: react-router
   分布式: distributed
+  软件: soft
+  笔记: note
 tag_map:
   多线程: multi-thread
   并发: concurrent
@@ -89,6 +92,10 @@ tag_map:
   微服务: mservice
   SOA: soa
   ESB: esb
+  云笔记: cloud-note
+  静态博客: static-blog
+  Web开发: web
+  
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

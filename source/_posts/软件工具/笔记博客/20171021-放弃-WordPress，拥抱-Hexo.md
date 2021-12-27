@@ -1,6 +1,6 @@
 ---
 title: 放弃 WordPress，拥抱 Hexo
-permalink: wp-hexo
+#permalink: wp-hexo
 categories:
   - 随笔
 date: 2017-10-21 10:32:22
@@ -9,7 +9,7 @@ author: Zenfery
 tags:
   - 技术感想
 thumbnail: asset/img/thumbnail/hexo.png
-blogexcerpt: 大学毕业后，选择成为一名程序猿后，就一直羡慕那些有 个站 的同学，也想要开一个个站玩玩，也方便记录自己的成长以及知识的积累。
+excerpt: 大学毕业后，选择成为一名程序猿后，就一直羡慕那些有 个站 的同学，也想要开一个个站玩玩，也方便记录自己的成长以及知识的积累。
 ---
 大学毕业后，选择成为一名程序猿后，就一直羡慕那些有 个站 的同学，也想要开一个个站玩玩，也方便记录自己的成长以及知识的积累。
 

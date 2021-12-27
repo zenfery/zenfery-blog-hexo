@@ -432,7 +432,7 @@ index:
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 100
+  banner_img_height: 70
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -446,7 +446,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "An elegant Material-Design theme for Hexo"
+    text: "三人行,必有我师焉；择其善者而从之，其不善者而改之"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -499,7 +499,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: https://cn.bing.com/th?id=OHR.Koenigsbourg_ZH-CN7675452866_1920x1080.jpg&rf=LaDigue_1920x1080.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -793,7 +793,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: https://www.bingimg.cn/static/downimg/OHR.BeechTrees_ZH-CN9605292244_1920x1080.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -805,7 +805,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://www.bingimg.cn/static/downimg/OHR.LeftForkNorth_ZH-CN8798894034_1920x1080.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -835,7 +835,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://www.bingimg.cn/static/downimg/OHR.HyacinthMacaws_ZH-CN1191345036_1920x1080.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -853,7 +853,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://www.bingimg.cn/static/downimg/OHR.FloridaManatee_ZH-CN2405291075_1920x1080.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:

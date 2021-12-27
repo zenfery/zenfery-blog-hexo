@@ -1,6 +1,5 @@
 ---
 title: Java注解(2)-注解处理器(运行时|RetentionPolicy.RUNTIME)
-permalink: annotation-2
 categories:
   - JAVA
   - Annotation
