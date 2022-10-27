@@ -80,6 +80,8 @@ category_map:
   分布式: distributed
   软件: soft
   笔记: note
+  生活: life
+  汽车: car
 tag_map:
   多线程: multi-thread
   并发: concurrent
@@ -95,7 +97,7 @@ tag_map:
   云笔记: cloud-note
   静态博客: static-blog
   Web开发: web
-  Java Web 开发: java-web
+  JavaWeb开发: java-web
   
 
 # Metadata elements
